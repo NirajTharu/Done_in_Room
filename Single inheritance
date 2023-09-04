@@ -27,5 +27,14 @@ void getdata0()
 }
 void show_info0()
 {
-void show_info1()
+void show_info()
+cout<<"Your Name and age is:<<sname" And "<<sage<<endl;
+}
+
+int main()
 {
+  son s;
+  s.getdata0();
+  s.show_info();
+  return 0;
+}
